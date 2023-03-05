@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "arial-rounded";
+  src: url("~@/assets/fonts/Arial Rounded Bold.ttf");
+}
+
+@font-face {
+  font-family: "universLTPro-light";
+  src: url("~@/assets/fonts/UniversLTPro-45Light.otf");
+}
+
+@font-face {
+  font-family: "universLTPro-roman";
+  src: url("~@/assets/fonts/UniversLTPro-55Roman.otf");
+}
+
+@font-face {
+  font-family: "universLTPro-bold";
+  src: url("~@/assets/fonts/UniversLTPro-65Bold.otf");
+}
+
+$def-font-stack		: "universLTPro-roman", arial, sans-serif;
+$text-black			: #231f20;
+
+$max-width			: 1330px;
+
+$default-back		: #F4F7F6;
+
+$header-clr			: $default-back;
+$header-border-clr	: #E3E5E4;
+$header-heigth		: 70px;
+$header-side-width	: 175px;
+
+
+$unicef-blue		: #1CABE2;
+$unicef-cool-gray	: #777779;
+$unicef-warm-gray	: #D8D1C9;
+
+$land-color			: $default-back;
+$random-gray		: #edf0f0;
+$bar-blue			: #30a2ff;
+
+$red-color			: rgba(226, 35, 26, 1);
+$yellow-color		: rgba(225, 194, 14, 1);
+$green-color		: rgba(0, 131, 62, 1);
