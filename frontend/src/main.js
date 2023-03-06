@@ -60,4 +60,4 @@ app.config.globalProperties.$http = Axios
 app.config.productionTip = false
 app.use(store)
 
-app.use(router).mou
+app.use(router).mount('#app');

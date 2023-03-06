@@ -1,20 +1,18 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import { createStore } from 'vuex';
 
-Vue.use(Vuex)
+const store = createStore({
+    state: {
+        // your store state goes here
+    },
+    mutations: {
+        // your store mutations go here
+    },
+    actions: {
+        // your store actions go here
+    },
+    getters: {
+        // your store getters go here
+    }
+});
 
-export default new Vuex.Store({
-	state: {
-		baseURL: 'https://humdata-api.apps.datafordecisionmaking.com/',
-		// baseURL: 'http://localhost:8000/',
-	},
-	mutations: {
-
-	},
-	actions: {
-
-	},
-	modules: {
-
-	}
-})
+export default store;
