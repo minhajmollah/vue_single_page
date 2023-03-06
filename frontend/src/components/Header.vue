@@ -1,4 +1,4 @@
-<template lang="html">
+<template >
 	<header class="align-center noselect">
 		<div id="sitrep-nav" @click="$router.push({ name: 'SitRepList' }).catch(err => {})" class="cursor-pointer">SitRep List</div>
 		<div id="title" @click="$router.push({ name: 'Home' }).catch(err => {})" class="cursor-pointer">Data for <b>Decision Making.</b></div>
@@ -35,7 +35,6 @@ export default {
 	}
 }
 </script>
-
 <style lang="scss" scoped>
 header {
 	background-color: $header-clr; display: flex;

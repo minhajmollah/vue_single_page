@@ -35,22 +35,3 @@ export default {
 }
 </script>
 
-<style media="screen" lang="scss">
-#about-container {
-	padding: 40px 20px; width: 600px;
-	#bread { font-size: 18px; }
-	#separator { width: 75px; height: 3px; background: #70757A; margin: 15px 0px 25px; }
-	#title { font-family: "universLTPro-bold"; font-size: 40px; color: $unicef-blue; margin-bottom: 40px; }
-	p {  }
-	ul {
-		list-style-type: disc; padding-left: 16px;
-		li {
-			margin: 10px 0px;
-		}
-	}
-	a {
-		text-decoration: underline; color: #70757A;
-	}
-}
-
-</style>

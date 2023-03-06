@@ -19,11 +19,13 @@ export default {
 	methods: { },
 	computed: { },
 	created: function () {
-
+            console.log('ok')
 	}
 }
 </script>
-
 <style lang="scss">
-@import 'stylesheets/main.scss';
+ @import 'stylesheets/main.scss';
+  
 </style>
+
+

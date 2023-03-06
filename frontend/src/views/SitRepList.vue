@@ -39,22 +39,3 @@ export default {
 }
 </script>
 
-<style media="screen" lang="scss">
-#sitrep-list {
-	padding: 30px;
-	#bread { margin-bottom: 20px; }
-	#sitrep-wrapper {
-		display: flex; flex-flow: row wrap; justify-content: space-around;
-		.disaster-wrapper {
-			width: 350px; margin-bottom: 30px;
-			.image-wrapper {
-				width: 100%; height: 200px; display: flex; align-items: center; overflow: hidden;
-			}
-			.title {
-				background: white; padding: 15px 10px; font-size: 14px;
-			}
-		}
-	}
-}
-
-</style>

@@ -95,7 +95,7 @@
 			</div>
 		</div>
 		</div>
-	</div>
+
 </template>
 
 <script>
@@ -286,6 +286,4 @@ export default {
 }
 </script>
 
-<style media="screen" lang="scss">
-@import '../stylesheets/sitrep.scss';
-</style>
+

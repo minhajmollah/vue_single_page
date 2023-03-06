@@ -40,7 +40,6 @@ export default {
 	}
 }
 </script>
-
 <style media="screen" lang="scss">
 #home {
 	max-height: 650px; overflow: hidden; position: relative;
@@ -78,3 +77,4 @@ export default {
 }
 
 </style>
+
